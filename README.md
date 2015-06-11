@@ -1,2 +1,2 @@
 # mesos-docker
-Docker image for mesos libraries. Useful base for a framework container.
+Base docker image providing mesos libraries. Does not provide mesos-master or mesos-slave!
