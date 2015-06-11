@@ -4,6 +4,7 @@ MAINTAINER Gabe Conradi <gummybearx@gmail.com>
 ENV MAVEN_VERSION 3.2.5
 ENV MESOS_VERSION 0.22.1
 ENV MESOS_NATIVE_JAVA_LIBRARY /usr/lib/libmesos.so
+ENV MESOS_NATIVE_LIBRARY /usr/lib/libmesos.so
 RUN apt-get update && \
   apt-get install -y curl \
     build-essential \
